@@ -1,0 +1,28 @@
+.stars {
+    display: flex; /* Ensures all stars are on the same line */
+    align-items: center;
+    font-size: 1.8rem;
+  }
+  
+  .star {
+    margin-right: 6px;
+  }
+  
+  .filled-stars .star {
+    color: #FFD700;
+  }
+  
+  .empty-stars .star {
+    color: #D3D3D3;
+  }
+  
+  .span-rating {
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: #D3D3D3;
+    color: black;
+    font-weight: 400;
+  }
+  

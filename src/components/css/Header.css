@@ -1,0 +1,70 @@
+/* Header Styling */
+.header {
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .logo-icon {
+    height: 30px;
+    margin-right: 8px;
+  }
+  
+  .nav {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 14px;
+    color: #8e8e8e;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .nav-item i {
+    font-size: 20px;
+  }
+  .nav-link {
+    color: #8e8e8e;
+  }
+  
+  .nav-item.active .nav-link   {
+    background-color: #8e8e8e;
+    color: #000 !important;
+  }
+  
+  .nav-item :hover {
+    color: #000;
+  }
+  
+  .cart {
+    font-size: 22px;
+    color: #8e8e8e;
+    cursor: pointer;
+  }
+  .bi-cart3{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 7px;
+    color: #000;
+  }
+ 
+  
+  
